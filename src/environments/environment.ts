@@ -4,8 +4,9 @@
 
 export const environment = {
   production: false,
-  api_url: 'https://q-a-example-loopback-api.herokuapp.com'
-};
+  api_url: 'http://localhost:3000'
+ };
+ 
 
 /*
  * For easier debugging in development mode, you can import the following file
@@ -15,3 +16,6 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+// The correct one
+// http://localhost:3000
